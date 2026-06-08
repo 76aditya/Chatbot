@@ -1,6 +1,8 @@
 # React Chatbot Project
 
-A sleek, interactive, and responsive Chatbot application built using React (via CDN) and styled with Plus Jakarta Sans typography. This project integrates an asynchronous chatbot utility to handle real-time messaging simulations complete with smooth scroll behaviors and dynamic loading animations.
+An interactive Chatbot application built using React (via CDN) and styled with Plus Jakarta Sans typography.
+
+This project integrates an asynchronous chatbot utility to handle real-time messaging simulations complete with smooth scroll behaviors and dynamic loading animations.
 
 ---
 
@@ -25,3 +27,26 @@ chatbot/
 ├── User.jpg              # Profile avatar picture representing the user
 ├── Bot.jpg               # Profile avatar picture representing the chatbot
 └── loading-spinner.gif   # Animated loading icon used during message delays
+```
+## Steps to Setup:
+1- Clone this repository from GitHub using your terminal:
+   ```
+      git clone [https://github.com/your-repo-name/Chatbot.git]
+   ```
+2- Navigate to the Project Folder
+   Change your working directory to the folder containing the chatbot files:
+   ```
+      cd your-repo-name/chatbot
+   ```
+3- Ensure all file names are correctly cased in your local directory (e.g., User.jpg, Bot.jpg, loading-spinner.gif, Chatbot.html, and chatbot.js).
+
+## Chatbot Capabilities:
+
+Chatbot Capabilities
+The local chatbot.js background processor is pre-programmed to cleverly detect variations of commands using string similarity matching.
+Try asking it to:
+
+Flip a coin, 
+Roll a dice, 
+What is the date today, 
+Say Hello or Thank you!
